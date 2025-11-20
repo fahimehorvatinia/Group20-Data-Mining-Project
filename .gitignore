@@ -1,0 +1,70 @@
+# Large data files
+ESC-50_data/audio/
+ESC-50.zip
+*.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Model files and cache
+*.h5
+*.ckpt
+*.pth
+*.pt
+*.pb
+models/
+checkpoints/
+cache/
+*.cache
+
+# YAMNet embeddings cache
+yamnet_embeddings/
+embeddings_cache/
+*.npy
+
+# Environment files
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Large output files (keep small CSVs, exclude large ones)
+# Keep feature CSVs (they're needed), but exclude if they get too large
+# data_out/*.csv  # Uncomment if you want to exclude feature CSVs too
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+
+# LaTeX aux files
+*.aux
+*.log
+*.out
+*.toc
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+
