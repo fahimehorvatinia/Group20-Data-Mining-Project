@@ -242,14 +242,14 @@ def create_results_html(results_data=None):
 <body>
     <div class="container">
         <header>
-            <h1>🎵 ESC-50 Sound Classification</h1>
+            <h1>ESC-50 Sound Classification</h1>
             <p class="subtitle">Comprehensive Model Comparison and Results</p>
             <p class="subtitle">ECEN 758 Data Mining and Analysis - Fall 2025</p>
         </header>
         
         <div class="content">
             <div class="section">
-                <h2>👥 Team Members</h2>
+                <h2>Team Members</h2>
                 <div class="team-section">
                     <div class="team-card">
                         <h3>Fahimeh Orvati Nia</h3>
@@ -287,7 +287,7 @@ def create_results_html(results_data=None):
             </div>
             
             <div class="section">
-                <h2>📊 Model Performance Comparison</h2>
+                <h2>Model Performance Comparison</h2>
                 <p style="margin-bottom: 20px; color: #666;">
                     All models were evaluated on three feature sets: <span class="badge badge-raw">Raw</span>, 
                     <span class="badge badge-norm">Normalized</span>, and <span class="badge badge-sel">Selected</span> features.
@@ -311,14 +311,14 @@ def create_results_html(results_data=None):
             </div>
             
             <div class="section">
-                <h2>📈 Performance Visualization</h2>
+                <h2>Performance Visualization</h2>
                 <div class="chart-container">
                     <canvas id="performanceChart"></canvas>
                 </div>
             </div>
             
             <div class="section">
-                <h2>🔍 Key Findings</h2>
+                <h2>Key Findings</h2>
                 <ul style="line-height: 2; color: #555;">
                     <li><strong>Transfer Learning:</strong> YAMNet embeddings significantly outperform traditional features</li>
                     <li><strong>Feature Preprocessing:</strong> Normalization generally improves performance for most models</li>
@@ -329,7 +329,7 @@ def create_results_html(results_data=None):
             </div>
             
             <div class="section">
-                <h2>📁 Project Structure</h2>
+                <h2>Project Structure</h2>
                 <p style="color: #666; line-height: 1.8;">
                     The complete project code is available in the main notebook: 
                     <code style="background: #f4f4f4; padding: 2px 8px; border-radius: 4px;">ESC_50_Complete_Project_All_Methods.ipynb</code>
@@ -441,6 +441,6 @@ if __name__ == '__main__':
     with open('results.html', 'w') as f:
         f.write(html_content)
     
-    print("✅ Created results.html")
-    print("📝 Note: Update the JavaScript modelResults array with actual results from your notebook")
+    print("Created results.html")
+    print("Note: Update the JavaScript modelResults array with actual results from your notebook")
 

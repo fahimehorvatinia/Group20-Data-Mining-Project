@@ -1,0 +1,28 @@
+# ADD THIS CODE RIGHT AFTER THE TENSORFLOW IMPORTS IN YOUR CNN CELL
+# (After: from tensorflow.keras import layers)
+
+# Fix GPU/CUDA issues - Force CPU usage to avoid CUDA errors
+import os
+os.environ['CUDA_VISIBLE_DEVICES'] = '-1'  # Force CPU usage
+
+# Clear any existing TensorFlow sessions
+tf.keras.backend.clear_session()
+
+# Alternative: If you want to use GPU instead, use this code instead:
+# import os
+# gpus = tf.config.experimental.list_physical_devices('GPU')
+# if gpus:
+#     try:
+#         for gpu in gpus:
+#             tf.config.experimental.set_memory_growth(gpu, True)
+#         print("GPU configured with memory growth")
+#     except RuntimeError as e:
+#         print(f"GPU configuration error: {e}")
+#         # Fallback to CPU
+#         os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+# else:
+#     print("No GPU found, using CPU")
+#     os.environ['CUDA_VISIBLE_DEVICES'] = '-1'
+#
+# tf.keras.backend.clear_session()
+

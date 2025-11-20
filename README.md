@@ -12,7 +12,7 @@
 
 This project implements comprehensive environmental sound classification using the ESC-50 dataset. We explore traditional machine learning methods, deep learning approaches, and transfer learning techniques to classify 50 different environmental sound categories.
 
-## 🌐 [View Results Website](results.html)
+## [View Results Website](results.html)
 
 ## Dataset
 
@@ -116,12 +116,12 @@ cd Group20-Data-Mining-Project
 
 ## Key Features
 
-- ✅ Unified data splitting ensuring all classes in train/val/test
-- ✅ No data leakage between splits
-- ✅ Comprehensive model comparison
-- ✅ Transfer learning with YAMNet
-- ✅ Self-supervised learning exploration
-- ✅ GPU/CPU compatibility
+- Unified data splitting ensuring all classes in train/val/test
+- No data leakage between splits
+- Comprehensive model comparison
+- Transfer learning with YAMNet
+- Self-supervised learning exploration
+- GPU/CPU compatibility
 
 ## Results Summary
 

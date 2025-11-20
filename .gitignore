@@ -68,3 +68,9 @@ Thumbs.db
 *.fls
 *.synctex.gz
 
+# Report files (excluded from public repo)
+Project_Report.tex
+Report_Figures_Guide.md
+Report_Summary.md
+*.pdf
+
