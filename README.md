@@ -6,7 +6,7 @@
 - Banghyon Lee (Joseph)
 - Fahimeh Orvati Nia
 - Nandhini Valiveti
-- Sushama Perati
+- Sushma Perati
 
 ## Project Overview
 
